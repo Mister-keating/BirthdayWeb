@@ -1,80 +1,95 @@
-body{
+body {
     margin: 0;
-    text-align:center;
+    text-align: center;
     font-family: "Happy Monkey", system-ui;
-    color:#ffffff;
-    background:linear-gradient(#a2d2ff,pink);
+    color: #ffffff;
+    background: linear-gradient(#a2d2ff, pink);
     text-shadow: 0px 0px 1px black;
 }
-#nick-img{
+
+#nick-img {
     width: 150px;
-    border-radius:50%;
-    border:2px solid #efb9c9;
-}
-#bday-age{
-    background:pink;
-    margin:5px 0px 5px 0px;
-    border-radius:5px;
-    padding:0 5px;
-}
-#bday-date{
-    margin: 0px;
-    background:pink;
-    border-radius:5px;
-    padding:0 5px;
-}
-.header{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+    border-radius: 50%;
+    border: 2px solid #efb9c9;
 }
 
-.gift-section{
-    margin-top:50px;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+#bday-age {
+    background: pink;
+    margin: 5px 0px 5px 0px;
+    border-radius: 5px;
+    padding: 0 5px;
 }
-.gift-title{
-    margin-bottom:5px;
+
+#bday-date {
+    margin: 0px;
+    background: pink;
+    border-radius: 5px;
+    padding: 0 5px;
 }
-.gift-hint{
-    margin-top:0px;
-}
-.gift-img{
-    width:400px;
-    height:400px;
-    background-image:url("./image/gift-cover.jpg");
-    background-size: cover;
-    border:6px solid white;
-    border-radius:10px;
-}
-#gift-img-chocolate:hover{
-     background-image:url("./image/gift-chocolate.png");
-}
-#gift-img-hot:hover{
-    background-image:url("./image/hot.gif");
-}
-#gift-img-genius:hover{
-    background-image:url("./image/genius.webp");
-}
-#gift-img-badass:hover{
-    background-image:url("./image/badass.webp");
-}
-#gift-img-cheers{
-    height: 200px;
-}
-#gift-img-cheers:hover{
-    background-image:url("./image/cheers.webp");
-}
-#end-words{
-    width:400px;
+
+.header {
     display: flex;
     flex-direction: column;
-    align-items:center;
-    margin:10px;
-    font-style:italic;
+    align-items: center;
 }
-a{
-    color:white;
+
+.gift-section {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-title {
+    margin-bottom: 5px;
+}
+
+.gift-hint {
+    margin-top: 0px;
+}
+
+.gift-img {
+    width: 400px;
+    height: 400px;
+    background-image: url("./image/gift-cover.jpg");
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+#gift-img-chocolate:hover {
+    background-image: url("./image/gift-chocolate.png");
+}
+
+#gift-img-hot:hover {
+    background-image: url("./image/hot.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("./image/genius.webp");
+}
+
+#gift-img-badass:hover {
+    background-image: url("./image/badass.webp");
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("./image/cheers.webp");
+}
+
+#end-words {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    font-style: italic;
+}
+
+a {
+    color: white;
 }
